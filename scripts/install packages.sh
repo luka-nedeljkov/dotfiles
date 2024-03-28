@@ -1,2 +1,2 @@
 #!/bin/bash
-pacman -Syu alacritty tmux zsh git
+pacman -Syu alacritty tmux

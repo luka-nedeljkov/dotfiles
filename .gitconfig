@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = main
+
+[user]
+	name = Luka Nedeljkov
+	email = luka.nedeljkov@gmail.com
+
+[core]
+	editor = nvim

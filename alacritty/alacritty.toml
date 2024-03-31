@@ -6,7 +6,6 @@ term = "xterm-256color"
 [window]
 dimensions.columns = 120
 dimensions.lines = 30
-opacity = 1
 
 [font]
 normal = {family = "JetBrainsMono Nerd Font", style = "Regular"}

@@ -40,5 +40,6 @@ if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
 fi
 
 alias vim=nvim
+alias ll="ls -lah"
 
 source ~/Repos/powerlevel10k/powerlevel10k.zsh-theme

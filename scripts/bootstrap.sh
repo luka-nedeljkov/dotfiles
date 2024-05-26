@@ -1,6 +1,5 @@
 #!/bin/bash
-./install\ packages.sh
 ./initialize\ alacritty.sh
-./initialize\ tmux.sh
-./initialize\ zsh.sh
+./initialize\ bash.sh
 ./initialize\ git.sh
+./initialize\ tmux.sh

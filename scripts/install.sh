@@ -2,8 +2,8 @@
 
 # Alacritty
 mkdir -p ~/.config/alacritty/themes
-cp ../alacritty/themes/catppuccin_mocha.toml ~/.config/alacritty/themes/catppuccin_mocha.toml
-cp ../alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
+cp ../.config/alacritty/themes/catppuccin_mocha.toml ~/.config/alacritty/themes/catppuccin_mocha.toml
+cp ../.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
 
 # bash
 cp ../.bashrc ~/.bashrc
@@ -13,5 +13,5 @@ cp ../.gitconfig ~/.gitconfig
 
 # tmux
 mkdir ~/.config/tmux
-cp ../tmux.conf ~/.config/tmux/tmux.conf
+cp ../.config/tmux/tmux.conf ~/.config/tmux/tmux.conf
 git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm

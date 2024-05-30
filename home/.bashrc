@@ -11,6 +11,7 @@ alias mv="mv -i"
 alias mkdir="mkdir -p"
 alias rmd="rm -rfv"
 alias ping="ping -c 10"
+alias cat="bat"
 
 # cd aliases
 alias ..='cd ..'

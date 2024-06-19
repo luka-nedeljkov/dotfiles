@@ -1,0 +1,69 @@
+#
+# Basic settings
+#
+
+# Show hidden files
+set hidden true
+# Ignore case when sorting and searching
+set ignorecase true
+# Enable icons
+set icons true
+# Show file size on the right
+set info size
+# Draw borders
+set drawbox true
+# Show child cound on the right for directory
+set dircounts true
+# Find first matching entry on search
+set incsearch true
+# Enable mouse
+set mouse true
+# Show numbers on the left
+set number true
+# Use relative line numbers
+set relativenumber true
+# Exit on error or unassigned variables
+set shellopts '-eu'
+# Leave space at top and bottom
+set scrolloff 10
+# Inverted instead of underline on directory preview
+set cursorpreviewfmt "\033[7;2m"
+
+# Create new directory
+cmd mkdir ${{
+	printf "Directory name: "
+	read ans
+	mkdir $ans
+}}
+
+# Create new file
+cmd mkfile ${{
+	printf "File name: "
+	read ans
+	touch $ans
+}}
+
+# Remove default keybinds
+map m
+map d
+map i
+map a
+
+# Remapping keybinds
+map md mkdir
+map mf mkfile
+map x cut
+map p paste
+map y copy
+
+# Movement
+map gd cd ~/Downloads
+map gD cd ~/Documents
+map gp cd ~/Pictures
+map gc cd ~/.config
+map gr cd ~/Repos
+
+# Press ENTER for shell commands
+map <enter> shell
+# show the result of execution of previous commands
+map ` !true

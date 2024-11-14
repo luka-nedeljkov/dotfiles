@@ -9,7 +9,7 @@ pacman -S --noconfirm bashtop bat curl git jdk21-openjdk jdk17-openjdk jdk8-open
 pacman -S --noconfirm alacritty firefox gimp gnome-calculator gwenview libreoffice-fresh obs-studio okular qbittorrent
 
 # GPU Driver
-pacman -S --noconfirm mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau
+pacman -S --noconfirm mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon
 
 # Games
 pacman -S --noconfirm lutris steam flatpak
